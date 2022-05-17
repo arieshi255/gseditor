@@ -5,6 +5,7 @@
 
 #include "Common.h"
 
-class GoldenSun : GameCommon {
-    
+class GoldenSun : public GameCommon {
+  public:
+    GoldenSun();
 };
